@@ -17,4 +17,4 @@ The directory `yay` contains four files for each piece of data:
 - `foo.length` is the length of the signing encoding (number of utf16 code units)
 - `foo.sha256` is the sha256 hash fo the signing encoding (hashing only the less significant byte of the utf16 code units)
 
-A conforming ssb implementation must reject the content of all files in the directories `syntax`, `surrogate`, `duplicate` and `number`, and it must produce the corect signing encoding, length and sha356 hash for all files in `yay`.
+A conforming ssb implementation must reject the content of all files in the directories `syntax`, `surrogate`, `duplicate` and `number`, and it must produce the corect signing encoding, length and sha256 hash for all files in `yay`.

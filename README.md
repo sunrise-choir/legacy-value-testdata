@@ -1,6 +1,6 @@
 # Legacy Value Test Data
 
-This repository contains test data for the json-based [ssb legacy data encodings](https://spec.scuttlebutt.nz/datamodel.html).
+This repository contains test data for the json-based [ssb legacy data encodings](https://spec.scuttlebutt.nz/feed/datamodel.html).
 
 The directory `syntax` contains data that is not valid [json](https://www.ecma-international.org/publications/files/ECMA-ST/ECMA-404.pdf) at all.
 
